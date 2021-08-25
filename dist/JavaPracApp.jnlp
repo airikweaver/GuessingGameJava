@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaPracApp.jnlp">
+  <information>
+    <title>JavaPracApp</title>
+    <vendor>aweaver</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaPracApp.jar" size="6208" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="javapracapp.JavaPracApp"  name="JavaPracApp" />
+  <update check="always"/>
+</jnlp>
